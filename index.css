@@ -1,0 +1,235 @@
+*{
+ margin: 0;
+ padding: 0;
+  font-family: sans-serif;
+}
+header,
+section,
+footer{
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+/* header */
+header{
+  /* border: 2px solid black; */
+  /* height: 500px; */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #8e8d8d;
+  margin: 2px 0;
+}
+
+/* section */
+section{
+  /* border: 2px solid red; */
+  height: auto;
+}
+.illustration-working{
+  height: 400px;
+  margin-left: 56%;
+  margin-bottom: 40px;
+}
+.get-started-info,
+.brand-recognition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 68px;
+}
+.get-started-info{
+  margin-bottom: 100px;
+}
+.get-started-info h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+.get-started-info p{
+  font-size: 18px;
+  font-weight: 550;
+  color: hsl(257, 7%, 63%);
+  margin-bottom: 30px;
+}
+.btn{
+  height: 57px;
+  width: 195px;
+  border-radius: 30px;
+  background-color: #2ACFCF;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+}
+
+/* Still in section -- second color */
+.input-bout-link{
+  /* border: 2px solid navy; */
+  background-color: #3B3054;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 8px;
+  /* margin-bottom: 150px; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input-bout-link input{
+  height: 30px;
+  padding: 10px;
+  border-radius:10px;
+  outline: none;
+  border-color: #a9a8a8;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 549;
+}
+.input-bout-link button{
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 550;
+  color: white;
+  background-color: #2ACFCF;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.get-started-info h2{
+  font-size: 35px;
+}
+
+.circle-moveable{
+  margin: 0;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  z-index: 100;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #3B3054;
+  border-radius: 50%;
+}
+.circle img{
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.brand-recognition{
+  /* border: 1px solid black; */
+  background-color: white;
+  margin-top: -40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.brand-recognition h3{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 550;
+}
+.brand-recognition p{
+  font-size: 18px;
+  font-weight: 550;
+  color: hsl(257, 7%, 63%);
+  margin-bottom: 30px;
+}
+
+
+/* footer */
+footer{
+  /* border: 2px solid gray; */
+  /* height: 500px; */
+   /* margin-top: 50px; 
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.first-footer{
+  /* margin-top: 60px; */
+  background-color: #3B3054;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.first-footer button{
+  margin-top: 30px;
+}
+.second-footer{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(260, 8%, 14%);
+  color: white;
+  /* font-weight: 200; */
+  padding-bottom: 50px;
+}
+.second-footer h1{
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+.second-footer a{
+  text-decoration: none;
+}
+.second-footer h2{
+  margin-top:50px;
+  margin-bottom: 30px;
+  /* font-weight: 100; */
+  font-size: 20px;
+}
+.second-footer h3{
+  line-height: 30px;
+  color: hsl(257, 7%, 63%);
+  font-weight: 500;
+}
+.social-icons{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  padding: 20px;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+}
+.footer-last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
